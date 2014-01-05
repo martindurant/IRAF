@@ -12,8 +12,8 @@ filelist - a <cr> seperated list of image filenames to stack
 fileout - output image
 flatout - output flat field
 
-You will need to chose several stars on the first of the images (using <a> as in imexam)
-and then one reference star on each of the images (using <a>, then <q>).
+You will need to chose several stars on the first of the images (using <A> as in imexam)
+and then one reference star on each of the images (using <A>, then <q>).
 Dark subtracting is not implemented.
 
 photometer - perform DAOphot photometry
@@ -26,7 +26,7 @@ First you should run daoedit on the image and set all the photometry parameters,
 with setimpars to <image>.pars
 
 When psf first runs, you will need to chose psf stars by hand, as many as possible. Choose
-using <a>, and then examine the radial/surface/contour plot, <a> to accept, <d> to reject.
+using <A>, and then examine the radial/surface/contour plot, <A> to accept, <D> to reject.
 You will need to press <w> when done, then <q> to quit.
 To add new stars to the starlist, mark them with <space> when phot runs.
 To delete psf stars, run emacs or somesuch and delete them by hand.
